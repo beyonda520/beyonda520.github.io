@@ -228,9 +228,10 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="准备SSH-KEY"><a href="#准备SSH-KEY" class="headerlink" title="准备SSH KEY"></a>准备SSH KEY</h1><p>`ssh-keygen -t rsa -C “user@test.com”<br>根据提示要求指定key文件的存放位置及私钥访问密码（可以为空）</p>
-<p>`ssh-add full-path-of-private-key<br>如果添加时一直提示”Could not open connection…”, 使用git-bash执行一下eval $(ssh-agent)后再试</p>
-<p>将public_key文件的内容拷贝出来，添加到github.com的授权ssh-key中<br>![github.com的授权ssh-key功能][][参考图片]</p>
+        <h1 id="准备SSH-KEY"><a href="#准备SSH-KEY" class="headerlink" title="准备SSH KEY"></a>准备SSH KEY</h1><p><code>ssh-keygen -t rsa -C &quot;user@test.com&quot;</code><br>根据提示要求指定key文件的存放位置及私钥访问密码（可以为空）</p>
+<p><code>ssh-add full-path-of-private-key</code><br>如果添加时一直提示”Could not open connection…”, 使用git-bash执行一下eval $(ssh-agent)后再试</p>
+<p>将public_key文件的内容拷贝出来，添加到github.com的授权ssh-key中<br><img src="./img/a.png" alt="github.com的授权ssh-key功能">[参考图片]<br>[测试][test_url]</p>
+<p>[test_url]: <a href="http://github.com" target="_blank" rel="external">http://github.com</a> github</p>
 
       
     </div>
