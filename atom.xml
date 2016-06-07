@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.jeanbros.com/"/>
-  <updated>2016-06-07T04:09:11.022Z</updated>
+  <updated>2016-06-07T04:12:59.949Z</updated>
   <id>http://blog.jeanbros.com/</id>
   
   <author>
@@ -20,11 +20,11 @@
     <link href="http://blog.jeanbros.com/2016/06/07/%E5%87%86%E5%A4%87github/"/>
     <id>http://blog.jeanbros.com/2016/06/07/准备github/</id>
     <published>2016-06-07T03:21:43.000Z</published>
-    <updated>2016-06-07T04:09:11.022Z</updated>
+    <updated>2016-06-07T04:12:59.949Z</updated>
     
     <content type="html">&lt;h1 id=&quot;准备SSH-KEY&quot;&gt;&lt;a href=&quot;#准备SSH-KEY&quot; class=&quot;headerlink&quot; title=&quot;准备SSH KEY&quot;&gt;&lt;/a&gt;准备SSH KEY&lt;/h1&gt;&lt;p&gt;&lt;code&gt;ssh-keygen -t rsa -C &amp;quot;user@test.com&amp;quot;&lt;/code&gt;&lt;br&gt;根据提示要求指定key文件的存放位置及私钥访问密码（可以为空）&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;ssh-add full-path-of-private-key&lt;/code&gt;&lt;br&gt;如果添加时一直提示”Could not open connection…”, 使用git-bash执行一下eval $(ssh-agent)后再试&lt;/p&gt;
-&lt;p&gt;将public_key文件的内容拷贝出来，添加到github.com的授权ssh-key中&lt;br&gt;&lt;img src=&quot;./img/a.png&quot; alt=&quot;github.com的授权ssh-key功能&quot;&gt;[参考图片]&lt;br&gt;[测试][test_url]&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;ssh-add full-path-of-private-key&lt;/code&gt;&lt;br&gt;如果添加时一直提示”Could not open connection…”, 使用git-bash执行一下&lt;code&gt;eval $(ssh-agent)&lt;/code&gt;后再试&lt;/p&gt;
+&lt;p&gt;将public_key文件的内容拷贝出来，添加到github.com的授权ssh-key中&lt;br&gt;&lt;img src=&quot;./img/a.png&quot; alt=&quot;github.com的授权ssh-key功能&quot;&gt;&lt;br&gt;[测试][:test_url]&lt;/p&gt;
 &lt;p&gt;[test_url]: &lt;a href=&quot;http://github.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://github.com&lt;/a&gt; github&lt;/p&gt;
 </content>
     
